@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.title {
+  color: #5e7547;
+  text-align: center;
+}
+
+
+  .text {
+    color: #313131;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
